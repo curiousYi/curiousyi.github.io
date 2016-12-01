@@ -64,3 +64,21 @@
         font-size: 22px
     }
 }
+
+
+.container > h1 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+
+.container > p {
+    font-family: 'Russo One', sans-serif;
+}
+
+
+/*font-family: 'Russo One', sans-serif;
+font-family: 'Noto Sans', sans-serif;*/
+
+
+/*    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans|Oswald|Playfair+Display|Raleway|Roboto" rel="stylesheet">
+*/
