@@ -17,7 +17,7 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="./assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="jumbotron.css" rel="stylesheet">
+    <link href="./assets/css/custom.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -51,33 +51,138 @@
     <div class="jumbotron">
         <div class="container text-center">
             <h1>CuriousYi</h1>
-            <p>Hi my name is Yi </p>
-            <p>I am a software engineer.</p>
+            <div class="text-center img-responsive img-rounded">
+                <img src="assets/img/yi-headshot-smaller.png" alt="Curious Yi Headshot" >
+            </div>
+            <p>Hi my name is Yi. <br>
+            I am a software engineer. <br>
+            I live in Chicago and recently graduated from <a href="http://www.fullstackacademy.com/"> Fullstack Academy </a>,<br>
+            where I learned to be a better programmer.<br>
+            Check out what I am working on or have worked on below!
+            </p>
             <a href="https://twitter.com/curiousyi">
-                <span class="fa-stack fa">
+                <span class="fa-stack fa-2x">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
                                 </span>
             </a>
             <a href="https://github.com/curiousyi">
-                <span class="fa-stack fa">
+                <span class="fa-stack fa-2x">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-github fa-stack-1x fa-inverse"></i>
                                 </span>
             </a>
             <a href="https://www.linkedin.com/in/curiousyi">
-                <span class="fa-stack fa">
+                <span class="fa-stack fa-2x">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                                </span>
+                </span>
             </a>
         </div>
     </div>
     <div class="container text-center">
         <!-- Example row of columns -->
         <div class="row">
+            <h1>My Projects</h1>
+        </div>
+        <section class="no-padding" id="portfolio">
+            <div class="container-fluid">
+                <div class="row no-gutter popup-gallery text-center">
+                    <div class="col-lg-4 col-sm-6">
+                        <a href="https://github.com/curiousyi/cnyStore" class="portfolio-box">
+                            <img src="assets/img/store-smaller.png" class="thumbnail img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        CNY Stack Store
+                                    </div>
+                                    <div class="project-name">
+                                        E-Commerce Store for laptops
+                                        <br> Tech: AngularJS, Postgres, Express, and Passport
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a href="http://hellocodejs.com/" class="portfolio-box">
+                            <img src="assets/img/line-chart-smaller.png" class="thumbnail img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        HelloCodeJS
+                                    </div>
+                                    <div class="project-name">
+                                        Statically analyzes a JS repo and visualizes it.
+                                        <br> Tech: React, Redux, NodeJS, Express, and Esprima
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a href="http://github.com/curiousyi/globalhack6" class="portfolio-box">
+                            <img src="assets/img/world-smaller.png" class="thumbnail img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Hackathon App <br>
+                                        for GlobalHack 6
+                                    </div>
+                                    <div class="project-name">
+                                        App that generates filled-out identification forms <br>
+                                        Tech: AngularJS, Express, and Google Maps API
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a href="http://github.com/curiousyi/trumpvshillary" class="portfolio-box">
+                        <img src="assets/img/politician-smaller.png" class="thumbnail img-responsive" alt="">
+                         <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Trump Vs Hillary
+                                </div>
+                                <div class="project-name">
+                                    Graph of sentiment analysis on candidate speeches <br>
+                                    Tech: React-vis and NodeJS
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box">
+                        <img src="assets/img/scraper-smaller.png" class="thumbnail img-responsive" alt="">
+                         <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    LinkedIn Scraper
+                                </div>
+                                <div class="project-name">
+                                    Work in progress
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container-fluid">
+                <h2>Heading</h2>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            </div>
+        </section>
+        <div class="row">
             <h2>Hello</h2>
-            <p>I'm Yi and I love programming! <br> I live in Chicago and recently graduated from <a href="http://www.fullstackacademy.com/"> Fullstack Academy </a>, <br> where I learned to be a better programmer. <br>See what I am currently working on below! </p>
+            <p>I'm Yi and I love programming!
+                <br> I live in Chicago and recently graduated from <a href="http://www.fullstackacademy.com/"> Fullstack Academy </a>,
+                <br> where I learned to be a better programmer.
+                <br>See what I am currently working on below! </p>
             <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
             <!--       </div>
             <div class="col-md-6">
@@ -86,103 +191,16 @@
                 <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
             </div> -->
         </div>
-        <section class="no-padding" id="portfolio">
-            <div class="container-fluid">
-                <div class="row no-gutter popup-gallery text-center">
-                    <div class="col-lg-4 col-sm-6">
-                        <!-- <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box"> -->
-                        <img src="assets/img/store-smaller.png" class="thumbnail img-responsive" alt="">
-                        <!-- <div class="portfolio-box-caption"> -->
-                        <!--                           <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div> -->
-                        <!-- </div> -->
-                        <!-- </a> -->
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <!-- <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box"> -->
-                        <img src="assets/img/line-chart-smaller.png"  class="thumbnail img-responsive" alt="">
-                        <!--                         <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a> -->
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <!-- <a href="img/portfolio/fullsize/3.jpg" class="portfolio-box"> -->
-                        <img src="assets/img/world-smaller.png" class="thumbnail img-responsive" alt="">
-                        <!--  <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div> -->
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <!-- <a href="img/portfolio/fullsize/4.jpg" class="portfolio-box"> -->
-                        <img src="assets/img/scraper-smaller.png" class="thumbnail img-responsive" alt="">
-                        <!--  <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a> -->
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <!-- <a href="img/portfolio/fullsize/5.jpg" class="portfolio-box"> -->
-                        <img src="assets/img/politician-smaller.png" class="thumbnail img-responsive" alt="">
-                        <!--  <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a> -->
-                    </div>
-
-                </div>
-            </div>
-        </section>
         <section>
-          <div class="container-fluid">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          </div>
-        </section>
-
-        <section>
+        <div class = "row">
             <h2>Interested in getting in touch?</h2>
             <a href="mailto:ychao021@gmail.com">
-                <span class="fa-stack fa">
-                      <i class="fa fa-circle fa-stack-2x"></i>
-                      <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                <span class="fa-stack fa-2x">
+                      <i class="fa fa-circle fa-stack-2x "></i>
+                      <i class="fa fa-envelope fa-stack-1x fa-inverse "></i>
                 </span>
             </a>
+        </div>
         </section>
         <footer>
         </footer>
