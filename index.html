@@ -74,7 +74,7 @@
       </div>
     </nav> -->
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
+    <div class="jumbotron" id="title">
         <div class="container text-center">
             <h1>CuriousYi</h1>
             <div class="text-center img-responsive img-rounded">
@@ -207,8 +207,8 @@
             <h1>About Me</h1>
             <h2> How I transitioned into programming</h2>
             <p id="ab1">
-            In college, I studied mathematics due to its elegance and inherent problem-solving. After college, I got my Masters in Actuarial Science, and ended up work at a <a href="#footenote-2"> commercial insurer </a>. As an actuary, I spent a lot of time (in hindsight more time than I would have liked) with Excel and SQL. My favorite moments at my job were the times that I got to use VBA to automate away tedious work. Yes! VBA was my gateway drug into programming. What I especially loved about programming were the time spent tinkering around in the editor; the instant sense of gratification from seeing whether your code worked; and the problem-solving. It seemed to have everything that interested me in being an actuary and MORE. Still I was too scared to make the leap.
-            While I was going through this internal conflict, the insurance industry and my employer was going through some <em>serious</em> issues. Things got so bad that they had to <a href="http://www.insurancejournal.com/news/international/2016/06/15/416977.htm"> lay-off </a> a number of employees, which included me. Although shocking, this event gave me final push that I needed to transition into tech. However, how was I going to get good enough to actually get a tech job?
+            In college, I studied mathematics due to its elegance and inherent problem-solving. After college, I got my Masters in Actuarial Science, and ended up work at a <a href="#footenote-2"> commercial insurer </a>. As an actuary, I spent a lot of time (in hindsight more time than I would have liked) with Excel and SQL. My favorite moments at my job were using coding up VBA scripts to automate away tedious work. Yes! VBA was my gateway drug into programming. What I especially loved about programming were the time spent tinkering around in the editor; the instant sense of gratification from seeing whether your code worked; and the problem-solving. Slowly I started wishing more and more that I could just code full-time, but I was too scared to make the leap.
+            While I was going through this internal conflict, the insurance industry and my employer was going through some <em>serious</em> issues. Things got so bad that they had to <a href="http://www.insurancejournal.com/news/international/2016/06/15/416977.htm"> lay-off </a> a number of employees, which included me. Although shocking, this event pushed me to transition into tech. However, how was I going to get good enough to actually get a tech job?
             </p>
 
 
@@ -218,18 +218,18 @@
             </p>
 
             <p id="ab1">
-            I immediately started researching into the best coding bootcamps in the US. I looked at bootcamps in Chicago (where I lived), NYC, and SF. Simultaneously I taught myself Ruby over a week to prepare for my upcoming technical interviews. After getting accepted into five bootcamps, I decided to go to <a href="http://www.fullstackacademy.com/">Fullstack Academy, the best coding bootcamp in Chicago. What drew me to Fullstack Academy were the quality of its instructors, the low <a href="#footnote-Fullstack-teaching-quality">teacher-to-student ratio </a>, and its <a href="#footnote-Fullstack-selectivity"> selectivity </a>. I also would not have to deal with the stress of moving and living in a "hacker hostel" (ie a cramped bedroom you share with 6 people).
+            I immediately started researching into the best coding bootcamps in the US. I looked at bootcamps in Chicago (where I lived), NYC, and SF. Simultaneously I taught myself Ruby during this time to prepare for my upcoming technical interviews. After getting accepted into five bootcamps, I decided to go to <a href="http://www.fullstackacademy.com/">Fullstack Academy</a>, the best coding bootcamp in Chicago. What drew me to Fullstack Academy were the quality of its instructors, the low <a href="#footnote-Fullstack-teaching-quality">teacher-to-student ratio </a>, and its <a href="#footnote-Fullstack-selectivity"> selectivity </a>. I also would not have to deal with the stress of moving and familiarizing myself to a new place.
             </p>
 
             <h2>Fullstack Academy</h2>
             <p id="ab1">
-            Going to Fullstack was like drinking water from a firehose. It was an overwhelming but exciting experience, which I intend to write more about in the future. THe main thing that I loved about Fullstack was how it taught us how to teach ourselves to become better developers. We did not just learn how to use libraries or frameworks, instead we would delve into the foundations of how things worked. For example, Bootstrap is a popular modern CSS framework that a lot of people can use without ever understanding the details. In one of our workshops, Shoestring, we had to build our own Bootstrap-like CSS framework. We also had workshops dealing with CS fundamentals like Algorithms and Data Structures. Learning all this material was made much easier by our amazing instructors, Nick Drane and Zeke Nierenberg, and awesome classmates/partners. After finishing my group capstone project <a href="www.hellocodejs.com"> HelloCodeJS </a>, I was confident in my abilities as a developer.
+            Going to Fullstack was like drinking water from a firehose. It was an overwhelming but exciting experience, which I intend to write more about in the future. THe main thing that I loved about Fullstack was how it taught us how to teach ourselves to become better developers. We did not mindlessly learn how to use libraries or frameworks; instead we would delve into the foundations of how things worked. For example, Bootstrap is a popular modern CSS framework that a lot of people can use without ever understanding the details. In one of our workshops, Shoestring, we had to build our own Bootstrap-like CSS framework. We also had workshops dealing with CS fundamentals like Algorithms and Data Structures. Learning all this material was made much easier by our amazing instructors, Nick Drane and Zeke Nierenberg, and awesome classmates/partners. After finishing my group capstone project <a href="www.hellocodejs.com"> HelloCodeJS </a>, I was confident in my abilities as a developer.
             </p>
 
             <h2>What I am doing now</h2>
             <p id="ab1">
-            Currently, I am learning how to code in Python and taking a few coursera courses (Intro to NLP and Machine Learning) while sharpening my familiarity with what I learned at Fullstack (particularly with an emphasis on NodeJS, React, and Redux).
-            I am looking for a role that allows the opportunity work on both front-end and back-end with a product that is in the data science domain.
+            Currently, I am learning how to code in Python and taking a few coursera courses (Intro to NLP and Machine Learning) while sharpening my familiarity with what I learned at Fullstack (particularly with an emphasis on NodeJS, React, and Redux). You might see me at Javascript, Python, and Data Science meetups around Chicago while I'm not busy volunteering teaching others how to code.
+            I am also on the lookout for a role that allows the opportunity work on both front-end and back-end with a product that is in the data science domain. If I had to be more specific, I would say a Javascript engineer that is focused on data visualization utilizing React, but ultimately what matters is finding the right team and culture.
             </p>
 
             <div class="container-fluid footnotes" id="ab3">
@@ -257,17 +257,18 @@
         </div>
     </section>
     <footer>
+        <!-- <h2><a href="#title" class="scroll">Start Over?</a></h2> -->
+        <button type="button" class="btn btn-lg btn-secondary"><a href="#title" class="scroll">Start Over?</a></button>
+
     </footer>
     </div>
     <!-- /container -->
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <!--     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>
-    window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
-    </script>
- -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- <script type='text/javascript' src='assets/js/jquery.scrollTo-min.js'></script> -->
+        <script type="text/javascript" src="assets/js/functions.js"></script>
 </body>
 
 </html>

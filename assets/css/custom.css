@@ -93,6 +93,22 @@
 .gray-back {
     background-color: #eee
 }
+
+.btn-secondary {
+    float: right;
+    background-color: #fff;
+    color: #373a3c;
+    border-color: #373a3c;
+    text-decoration: none;
+}
+
+.btn-secondary:hover {
+    color: #373a3c;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+
+
 /*
 #about-me-section > h1 {
     font-size: 36px;
