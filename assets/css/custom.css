@@ -65,16 +65,44 @@
     }
 }
 
+#ab1 {
+    font-family: 'Open Sans', sans-serif;
+}
 
+#ab2 {
+    font-family: 'Oswald', sans-serif;
+}
+
+#ab3 {
+    font-family: 'Playfair Display', serif;
+}
 .container > h1 {
     font-family: 'Abril Fatface', cursive;
 }
 
-
+.container-fluid > h1 {
+    font-family: 'Abril Fatface', cursive;
+}
 .container > p {
     font-family: 'Russo One', sans-serif;
 }
 
+#about-me > p{
+
+}
+.gray-back {
+    background-color: #eee
+}
+/*
+#about-me-section > h1 {
+    font-size: 36px;
+}
+
+
+#about-me-section > h2 {
+    font-size: 24px;
+}
+*/
 
 /*font-family: 'Russo One', sans-serif;
 font-family: 'Noto Sans', sans-serif;*/
