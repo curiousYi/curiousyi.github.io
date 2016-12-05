@@ -109,7 +109,25 @@
 }
 
 
-/*
+.jumbotron h1 {
+    font-size: 36px;
+}
+
+.jumbotron p {
+    font-size: 17px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+/*to make img fit the container*/
+.thumbnail {
+    width: 100%;
+}
+
+
+/*`
 #about-me-section > h1 {
     font-size: 36px;
 }
