@@ -3,145 +3,41 @@
     -moz-transition: all .35s
 }
 
-
-.portfolio-box {
-    position: relative;
-    display: block;
-    max-width: 650px;
-    margin: 0 auto
+.backgroundBox {
+    background: url(assets/img/chicago4.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
-
-.portfolio-box .portfolio-box-caption {
-    color: #fff;
-    opacity: 0;
-    display: block;
-    background: rgba(63, 172, 267, .9);
-    position: absolute;
-    bottom: 0;
+.profileBox {
+    background-color: #ffaf4e;
+    width: 33%;
+    margin-left: 33%;
     text-align: center;
-    width: 100%;
-    height: 100%;
-    transition: all .35s
+    margin-top: 10%;
 }
 
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
-    width: 100%;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%)
+.img-rounded {
+    border-radius: 70% 70% 70% 70%;
 }
 
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-    padding: 0 15px
+.transparent {
+    opacity: 0.9;
 }
 
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 14px
+h1 {
+    padding-bottom: 1%;
 }
 
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    font-size: 18px
+img {
+    padding-bottom: 2.5%;
 }
 
-.portfolio-box:hover .portfolio-box-caption {
-    opacity: 1
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
-.portfolio-box:focus {
-    outline: 0
+.red-social {
+    color: #d01d1d;
 }
-
-@media (min-width:768px) {
-    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-        font-size: 16px
-    }
-    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-        font-size: 22px
-    }
-}
-
-#ab1 {
-    font-family: 'Open Sans', sans-serif;
-}
-
-#ab2 {
-    font-family: 'Oswald', sans-serif;
-}
-
-#ab3 {
-    font-family: 'Playfair Display', serif;
-}
-.container > h1 {
-    font-family: 'Abril Fatface', cursive;
-}
-
-.container-fluid > h1 {
-    font-family: 'Abril Fatface', cursive;
-}
-.container > p {
-    font-family: 'Russo One', sans-serif;
-}
-
-#about-me > p{
-
-}
-.gray-back {
-    background-color: #eee
-}
-
-.btn-secondary {
-    float: right;
-    background-color: #fff;
-    color: #373a3c;
-    border-color: #373a3c;
-    text-decoration: none;
-}
-
-.btn-secondary:hover {
-    color: #373a3c;
-    background-color: #e6e6e6;
-    border-color: #adadad;
-}
-
-
-.jumbotron h1 {
-    font-size: 36px;
-}
-
-.jumbotron p {
-    font-size: 17px;
-    padding: 0 10% 0 10%;
-}
-
-h2 {
-    font-size: 25px;
-}
-
-/*to make img fit the container*/
-.thumbnail {
-    width: 100%;
-}
-
-
-/*`
-#about-me-section > h1 {
-    font-size: 36px;
-}
-
-
-#about-me-section > h2 {
-    font-size: 24px;
-}
-*/
-
-/*font-family: 'Russo One', sans-serif;
-font-family: 'Noto Sans', sans-serif;*/
-
-
-/*    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans|Oswald|Playfair+Display|Raleway|Roboto" rel="stylesheet">
-*/
